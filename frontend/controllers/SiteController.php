@@ -70,11 +70,6 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
-    /**
-     * Logs in a user.
-     *
-     * @return mixed
-     */
     public function actionLogin()
     {
         if (!Yii::$app->user->isGuest) {
@@ -91,11 +86,6 @@ class SiteController extends Controller
         }
     }
 
-    /**
-     * Logs out the current user.
-     *
-     * @return mixed
-     */
     public function actionLogout()
     {
         Yii::$app->user->logout();
