@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: */yii-admin/
+Disallow: *?sort
+Host: https://seo-stars.top/
+Sitemap: https://seo-stars.top/sitemap.xml

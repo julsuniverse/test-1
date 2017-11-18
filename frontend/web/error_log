@@ -1,0 +1,6 @@
+[28-Jul-2016 15:37:22 Europe/Moscow] PHP Fatal error:  Call to a member function getData() on null in /home/tptohwig/public_html/seostar/frontend/controllers/MainController.php on line 133
+[29-Jul-2016 21:46:45 Europe/Moscow] PHP Fatal error:  Class 'frontend\controllers\Pages' not found in /home/tptohwig/public_html/seostar/frontend/controllers/MainController.php on line 51
+[30-Jul-2016 10:11:52 Europe/Moscow] PHP Fatal error:  Class 'commn\models\Company' not found in /home/tptohwig/public_html/seostar/frontend/controllers/MainController.php on line 33
+[30-Jul-2016 12:30:37 Europe/Moscow] PHP Fatal error:  Class 'frontend\components\Yii' not found in /home/tptohwig/public_html/seostar/frontend/components/VkAuth.php on line 132
+[30-Jul-2016 12:48:11 Europe/Moscow] PHP Fatal error:  Class 'frontend\controllers\FbAuth' not found in /home/tptohwig/public_html/seostar/frontend/controllers/MainController.php on line 50
+[30-Jul-2016 12:49:22 Europe/Moscow] PHP Fatal error:  Class 'frontend\components\User' not found in /home/tptohwig/public_html/seostar/frontend/components/FbAuth.php on line 91

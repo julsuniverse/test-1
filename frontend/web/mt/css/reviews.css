@@ -1,0 +1,398 @@
+.one_comp_rait
+{
+    border:none;
+    box-shadow: none;
+    margin-bottom:40px;
+}
+.info .one_comp_rait tr td, .info  .one_comp_rait tr th
+{
+    padding: 4px 3px;
+}
+.info  .one_comp_rait tr th
+{
+    border-right: none;
+}
+.left_bl_table
+{
+    border-bottom: 1px solid #ddd;
+    padding:0;
+}
+.review 
+{
+    padding: 14px 30px;
+    margin-bottom:25px;
+}
+.review img
+{
+    width:115px;
+    height:115px;
+    border-radius: 100%;
+    margin-right:25px;
+}
+.clear
+{
+    clear: both;
+}
+.review img, .review .name
+{
+    float:left;
+}
+.review .stars
+{
+    float:right;
+}
+/*.review .stars span
+{
+    font-size: 25px;
+    color:#fdc689;
+    margin-right: 5px;
+}
+.review .stars .empty
+{
+    color:#e1e1e1;
+}*/
+.review .name a
+{
+    font-size:25px;
+    font-family: OpenSans Light;
+    color: #1c1c1c;
+}
+.review p
+{
+    padding-top:56px;
+    font-size: 15.66px;
+    font-family: OpenSans Light;
+    color: #131313;
+    line-height:23px;
+}
+.review .date, .review .likes
+{
+    font-size:15px;
+    border-top: 1px solid #deebdf;
+    color:#939393;
+    width: 215px;
+    padding-top:15px;
+    margin-top:10px;
+}
+.review .date
+{
+    float: left;
+}
+
+.review .likes
+{
+    float: right;
+    text-align: right;
+}
+.review .count_likes
+{
+    font-size:17px;
+}
+.review .glyphicon-triangle-bottom
+{
+    color: #dca197;
+    cursor: pointer;
+    top:2px;
+}
+.review .glyphicon-triangle-top
+{
+    color: #96e79c;
+    cursor: pointer;
+    top:2px;
+}
+.review .title
+{
+    margin-right:15px;
+}
+.container-reviews hr
+{
+    margin-top: 43px;
+}
+.container-reviews h4
+{
+    color:#3c3c3c;
+    font-size: 30px;
+    font-family: OpenSans;
+    font-weight: bold;
+    margin-top:15px;
+}
+.add_title
+{
+    font-size:30px;
+    line-height:48px;
+    color:#3e3e3e;
+    font-family: OpenSans;
+}
+.add_title_sec
+{
+    color:red;
+}
+/*.add_title .fb, .add_title .vk,*/ .add_title .anonim
+{
+    color: #fff;
+    background-color: #666;
+    border-radius: 100%;
+    margin-left:20px;
+    text-decoration:none;
+}
+/*.add_title .fb
+{
+    padding: 2px 14px;
+}
+.add_title .vk
+{
+    padding: 2px 8px;
+}*/
+.add_title .fb img, .add_title .vk img
+{
+    width:45px;
+    margin-left: 15px;
+}
+.add_title .fb img:hover, .add_title .vk img:hover
+{
+    border: 2px solid #666;
+    border-radius: 100%;
+}
+.add_title .anonim
+{
+    padding: 5px 13px;
+    border-radius: 20px;
+    font-size: 23px;
+    text-decoration: none;
+}
+/*.add_title .fb:hover, .add_title .vk:hover, */.add_title .anonim:hover
+{
+    background-color: #3e3e3e;
+}
+.container-reviews
+{
+    padding-bottom:24px;
+}
+.container-reviews .review_text
+{
+    background-color: #f2f2f2;
+    color:#c5c5c5;
+    font-style: italic;
+    font-size: 13.55px;
+    outline: none;
+    border:none;
+    padding: 30px 20px;
+    height:160px;
+    width:100%;
+}
+.review_mark
+{
+    font-size:15px;
+    color:#3e3e3e;
+    margin-top:20px;
+    text-align: right;
+}
+.star_input
+{
+    border-top: 1px #efefef solid;
+    border-bottom: 1px #efefef solid;
+    margin-top:21px;
+    margin-left: 4px;
+    margin-right: 0px;
+
+}
+.field-reviewform-star
+{
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.review_button
+{
+    width: 146px;
+    margin: auto;
+}
+.review_button button
+{
+    color:#fff;
+    padding: 6px 14px;
+    background-color: #e21d38;
+    text-align: center;
+    margin-top:23px;
+    border: none;
+    outline: none;
+    font-size:25px;
+    font-family: OpenSans;
+}
+.rew_bott
+{
+    width: 100%;
+    border-bottom: 1px #efefef solid;
+    padding-bottom: 23px;
+}
+
+.rating-container .filled-stars
+{
+    text-shadow: none;
+}
+.glyphicon-star-empty:before {
+    content: "\e006";
+}
+.rating-container .empty-stars {
+    color: #e1e1e1;
+}
+.container-reviews .mobsort
+{
+    display: none;
+    /*text-align: center;*/
+    padding-bottom: 30px;
+}
+.dropsort
+{
+    width:285px;
+    text-align:center;
+    margin: auto;
+}
+.dropsort span
+{
+    color: #5f5f5f;
+    font-size:25px;
+    font-family: OpenSans;
+    font-weight:bold;
+}
+.dropsort .dropdown
+{
+    margin-top:10px;
+}
+.dropsort div button
+{
+    border: none;
+    outline: none !important;
+    background-color: transparent;
+    color:#2b96c0;
+    font-size: 30px;
+    font-family: OpenSans;
+    text-decoration: underline;
+    
+}
+
+.dropsort div button:active, .dropsort div button:focus, .dropsort div button:hover
+{
+    text-decoration: none !important;
+    color: #2b96c0 !important;
+    background-color: transparent !important; 
+    outline: none; 
+    box-shadow: none !important;
+}
+
+.dropsort ul li a
+{
+    border: none;
+    background: none;
+    color:#2b96c0;
+    font-size: 20px;
+    font-family: OpenSans;
+}
+.mobbr
+{
+    display:none;
+}
+
+.rating-container .filled-stars 
+{
+    -webkit-text-stroke: #fde16d;
+}
+@media screen and (max-width:991px)
+{
+    .add_comment h4
+    {
+        text-align:center;
+    }
+    .infoText .infoTitle {
+        margin-top: 30px;
+    }
+    .container-reviews .mobsort
+    {
+        display: block;
+    }
+    .container-reviews .sort
+    {
+        display: none;
+    }
+}
+@media screen and (max-width:600px)
+{
+    .review p
+    {
+        float: left;
+        padding-top:15px;
+    }
+    .review .stars 
+    {
+        float: left;
+        margin-top: 15px;
+    }
+    .mobbr
+    {
+        display:block;
+    }
+}
+@media screen and (max-width:540px)
+{
+    .review .date, .review .likes
+    {
+        width: auto;
+    }
+    .add_comment
+    {
+        padding: 15px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:450px)
+{
+    .review 
+    {
+        padding: 11px;
+    }
+    
+    .review .stars span
+    {
+        margin-right:0;
+    }
+    .review img
+    {
+        margin-right:10px;
+    }
+    .review .title
+    {
+        margin-right:1px;
+    }
+    .container-reviews
+    {
+        padding:0;
+    }
+    .review .name {
+    font-size: 20px;
+    }
+}
+@media screen and (max-width:390px)
+{
+    .star i
+    {
+        font-size:20px;
+    }
+    .review_mark
+    {
+        float:left;
+        padding: 0;
+        margin-top: 23px;
+    }
+}
+@media screen and (max-width:340px)
+{
+    .review .count_likes
+    {
+        font-size:15px;
+    }
+
+    /*.review .stars span
+    {
+        font-size:20px;
+    }*/
+
+}
